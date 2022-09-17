@@ -1,6 +1,15 @@
 {% extends 'base.html' %}
 {% block content %}
 <div class="container my-3">
+    <div class="intro_text">
+        <div class="container my-3">
+            <h1>한민 중고거래 플랫폼, 감자마켓</h1>
+            <h4 class="contents1"> 당근을 뒤이을 구황작물</h4>
+            <button class="'btn btn-outline-secondary" type="button">
+                <a href="https://www.instagram.com/hm_gamza/">감자마켓 SNS바로가기</a>
+            </button>
+        </div>
+    </div>
     <div class="row my-3">
         <div class="col-6">
             <a href="{{ url_for('question.create') }}" class="btn btn-primary">게시글 등록하기</a>

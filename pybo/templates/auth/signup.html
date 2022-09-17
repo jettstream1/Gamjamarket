@@ -6,7 +6,7 @@
         {{ form.csrf_token }}
         {% include "form_errors.html" %}
         <div class="mb-3">
-            <label for="username">사용자 이름</label>
+            <label for="username">학번 이름</label>
             <input type="text" class="form-control" name="username" id="username"
                    value="{{ form.username.data or '' }}">
         </div>
@@ -21,7 +21,7 @@
                    value="{{ form.password2.data or '' }}">
         </div>
         <div class="mb-3">
-            <label for="email">이메일</label>
+            <label for="email">한민고 이메일</label>
             <input type="text" class="form-control" name="email" id="email"
                    value="{{ form.email.data or '' }}">
         </div>
